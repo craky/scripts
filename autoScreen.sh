@@ -8,6 +8,7 @@
 #
 # This app uses a video and for one hour it makes screenshots after five minutes.
 # To the screenshot (*.png) it will add date and time which you have to set up.
+####################################
 # TODO:
 #        * variables which are not constant -> small
 #        * easy set up from command line
