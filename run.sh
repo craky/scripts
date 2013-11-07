@@ -10,9 +10,9 @@
 #	     * RemoteDroid
 runProgram() {
 case $1 in
-	"eagle") ./eagle-6.4.0/bin/eagle &;;
-	"mathematica") ./Dokumenty/Mathematica/Mathematica &;;
-	"remoteDroid") java -jar ./Dokumenty/remoteDroid/RemoteDroidServer.jar &;;	
+	"eagle") ~/eagle-6.4.0/bin/eagle &;;
+	"mathematica") ~/Mathematica/Executables/Mathematica &;;
+	"remoteDroid") java -jar ~/Dokumenty/remoteDroid/RemoteDroidServer.jar &;;	
 
 	*) echo "Invalid argument";;
 esac
