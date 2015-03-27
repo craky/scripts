@@ -3,7 +3,7 @@
 # version 1.0
 # created by craky, 2013
 #
-# created like a application for creating *.png shots after five minutes from a video file
+# created like an application for creating *.png shots after five minutes from a video file
 # used by Agrosoft s.r.o.
 #
 # This app uses a video and for one hour it makes screenshots after five minutes.

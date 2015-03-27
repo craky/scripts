@@ -1,4 +1,7 @@
 #!/bin/sh
+# generate.sh
+#################
+# The script was made because of students reasons.
 file_name=1100;
 
 ./generator_grafu -t NAH -n $file_name -k 5 -o $file_name.txt;
