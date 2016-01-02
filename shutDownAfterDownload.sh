@@ -2,7 +2,6 @@
 # version 1.0
 # created by craky, 2013
 # It turns off pc after file ($1) does not exist
-# file have to be in folder Stažené
 #
 isRoot(){
 	if [ "$(id -u)" != "0" ]; then
@@ -13,7 +12,7 @@ isRoot(){
 ############################################################
 runProgram() {
 vSleep=30;
-	while [ -e Stažené/$1 ]
+	while [ -e $1 ]
 	do
   		echo "$1 exists.";
   		echo "Sleeping for $vSleep s...";
